@@ -1,0 +1,27 @@
+* {
+	font-family: "Roboto Condensed";
+	font-weight: 300;
+}
+.media-list {
+	border-top: 3px solid #cccccc;
+}
+.media {
+	border-bottom: 1px solid #cccccc;
+	margin-top: 0;
+}
+li.media:last-child {
+	border-bottom-width: 3px;
+}
+.event .media-left {
+	width: 15%;
+}
+.media-body {}
+.media-right {}
+.media a {
+	display: block;
+	padding: 10px 0;
+}
+.media a:hover {
+	background: #eeeeee;
+	text-decoration: none;
+}
