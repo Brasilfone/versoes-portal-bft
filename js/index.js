@@ -1,4 +1,4 @@
-var token = '974409b4ab6107e079c93574dd148749a790cfa6';
+var token = '3146d43978ea8821b11193877ef661f5814390c9';
 
 $.ajax({
     type: "GET",
@@ -23,5 +23,10 @@ $.ajax({
                 '</li>'
             );
         });
+    },
+    error: function(hrx) {
+        $('#total-releases').text('');
+        $('#list-releases').empty();
+        $('#list-releases').append('<li style="padding-top: 12px">ERRO API GITHUB: ' + hrx.responseJSON.message + '</li>');
     }
 });
