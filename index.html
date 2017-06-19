@@ -7,32 +7,343 @@
     <body>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700,300" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
 
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <h1>Portal BFT Telecom</h1>
-                    <h3 id="total-releases">Carregando versões ...</h3>
-                    <ul id="list-releases" class="media-list">
-                        <li style="padding-top: 12px">
-                            <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+                    <h3>40 Versões</h3>
+                    <ul class="media-list">
+
+                        <!--
+                        <li class="media">
+                                <a href="#">
+                                        <div class="media-body">
+                                                <h4 class="media-heading">v0.0.0</h4>
+                                                <p class="text-muted">Correções</p>
+                                        </div>
+                                </a>
                         </li>
-<!--                        <li class="media">
+                        -->
+                        <!-- <p><small class="text-muted">Thursday 2nd June 2016</small></p> -->
+                        <li class="media">
                             <a href="#">
                                 <div class="media-body">
                                     <h4 class="media-heading">v5.1.2</h4>
                                     <p class="text-muted">Otimização de arquivos, melhorias de performance e segurança para Portal</p>
                                 </div>
                             </a>
-                            <p><small class="text-muted">Thursday 2nd June 2016</small></p>
-                        </li>-->
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v5.1.1</h4>
+                                    <p class="text-muted">Correção funcionalidade de envio de torpedo de voz, carregamento das informações e melhorias de segurança.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v5.1.0</h4>
+                                    <p class="text-muted">Nova funcionalidade que permite que usuários possuam vínculos com mais de uma empresa e melhorias telas de visualizações de dados.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v5.0.1</h4>
+                                    <p class="text-muted">Melhorias e correções na atualização dos dados do usuário, mensagens de informação e verificações de  segurança.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v5.0.0</h4>
+                                    <p class="text-muted">Novas funcionalidades para atualizar dados usúario, redefinir senha, melhorias de segurança e atualização das senhas a cada 60 dias.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v4.4.0</h4>
+                                    <p class="text-muted">Melhorias interface abas e tela principal, performance consultas e correções de bugs.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v4.3.1</h4>
+                                    <p class="text-muted">Correções para módulo do Cliente e atualizações de traduções</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v4.3.0</h4>
+                                    <p class="text-muted">Ajustes permissões novas telas e consulta da tela Busca SMS no novo gateway smpp</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v4.2.0</h4>
+                                    <p class="text-muted">Melhorias inserção sms portal e descrições tela de Monitoramento SMS Clientes Nova</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v4.1.0</h4>
+                                    <p class="text-muted">Tela de Monitoramento SMS Cliente Gateway SMPP e correções atualizações</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v4.0.0</h4>
+                                    <p class="text-muted">Nova tela de configurações de canais e monitoramento do envio de SMS, além de correções de bugs</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v3.1.0</h4>
+                                    <p class="text-muted">Melhorias de interface e usabilidade, além de bugs módulo Administrativo</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v3.0.1</h4>
+                                    <p class="text-muted">Correções utilização multi abas módulo Cliente</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v3.0.0</h4>
+                                    <p class="text-muted">Melhorias na utilização menu para dispositivos móveis, além de correções tela de chamados</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v2.4.1</h4>
+                                    <p class="text-muted">Atualização das traduções e carregamento dos js</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v2.4.0</h4>
+                                    <p class="text-muted">Melhorias no menu para dispositivos móveis</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v2.3.0</h4>
+                                    <p class="text-muted">Melhorias na resolução para dispositivos móveis</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v2.2.0</h4>
+                                    <p class="text-muted">Melhorias no carregamento das informação para módulos Administrativo, Cliente e Operadora</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v2.1.0</h4>
+                                    <p class="text-muted">Melhorias e correções tela de Dashboard SMS no módulo Administrativo</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v2.0.0</h4>
+                                    <p class="text-muted">Melhorias na interface e construção tela de Dashboard SMS para monitoramento</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.5.0</h4>
+                                    <p class="text-muted">Bloqueio de tela para alteração de aba e tela inicial Dashboard SMS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.4.1</h4>
+                                    <p class="text-muted">Melhorias e correções relatorios do módulo Operadora</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.4.0</h4>
+                                    <p class="text-muted">Melhorias/Correções módulo Operadora, separação do relatorios e enviar mensagem por SMS e VOZ no módulo Cliente</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.3.5</h4>
+                                    <p class="text-muted">Correções nas ordenações campos datas tela de Chamados para módulos Administrativo e Cliente</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.3.4</h4>
+                                    <p class="text-muted">Direcionamento dos anexos portal antigo e posicionamento dos botões tela Chamados, Confirmação Recargas e Historico de Recargas</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.3.3</h4>
+                                    <p class="text-muted">Correções tela chamados e atualização traduções e textos de ajudas módulos Administrativo, Cliente e Operadora</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.3.2</h4>
+                                    <p class="text-muted">Correções e validações Banners e telas de módulo Cliente/Operadora</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.3.1</h4>
+                                    <p class="text-muted">Correções registros duplicados e filtros tipo inteiro para Configuração Canais SMS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.3.0</h4>
+                                    <p class="text-muted">Melhorias, implementação do download de zip para várias partes das cdrs e ajustes mascaras nos relatórios</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.2.0</h4>
+                                    <p class="text-muted">Melhorias estéticas menus, banners, performace e correções de bugs módulo Administrativo</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.8</h4>
+                                    <p class="text-muted">Correções acls e atualizações das traduções</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.7</h4>
+                                    <p class="text-muted">Ajustes e correções layout e grid</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.6</h4>
+                                    <p class="text-muted">Correções para dowloads dos arquivos CDRs para os Relatorios de Chamadas</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.5</h4>
+                                    <p class="text-muted">Correções para módulo Administrativo</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.4</h4>
+                                    <p class="text-muted">Correções carregamento das permissões no menu</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.3</h4>
+                                    <p class="text-muted">Correções de performace tela de Monitoramento GSM</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.2</h4>
+                                    <p class="text-muted">Versão 1.0.2, correções para módulo de Operadora e ocultação de diretórios</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.1</h4>
+                                    <p class="text-muted">Correções consultas Histórico de Alertas e Buscar SMS módulo Administrativo</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="#">
+                                <div class="media-body">
+                                    <h4 class="media-heading">v1.0.0</h4>
+                                    <p class="text-muted">Versão inicial Portal Brasilfone, com módulos Administrativo, Cliente e Operadora</p>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/index.js"></script>
     </body>
 </html>
